@@ -4,11 +4,19 @@ This chatroom consist of main two parts that are server side (server.js) and cli
 
 *To understand what's going on below, you should:
 
-1. Download the code and look server.js and client.html briefly. (If you could understand them, you should.)
+1. Download the code and read server.js and client.html briefly. (If you could understand them, you should.)
 
 2. Have background knowledge in JavaScript, jQuery, HTML, Node.js and SocketIO.
 
-3. Know that my English skill is bad... (hahaha) However, Next time, It must be better!
+If you're not familiar with them, I suggest you to read these first:
+  
+  * Basic JavaScript - http://www.w3schools.com/js/default.asp
+  * Basic jQuery - http://www.w3schools.com/jquery/default.asp
+  * jQuery API - http://api.jquery.com/
+  * Basic HTML - http://www.w3schools.com/html/default.asp
+  * Node.js - http://nodejs.org/
+  * Socket.io - http://socket.io/
+  * Node.js Tutorial with Socket.io - http://danielnill.com/nodejs-tutorial-with-socketio/
 
 ## Broadcasting
 
@@ -44,5 +52,5 @@ socket.on('message', function(message){
 });
 ```
 
-Lastly, when the 'message' event is sent, this 'message' EH sends the message to the sender. That's end of broadcasting!
+Lastly, when the 'message' event is sent, this 'message' EH sends the message to the sender. That's the end of broadcasting!
 
